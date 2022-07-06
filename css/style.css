@@ -2,6 +2,9 @@ body{
     font-family: 'Inter', sans-serif;
     margin: 0%;
 }
+p{
+    font-size: 18px;
+}
 
 h1{
     font-size: 64px;
@@ -105,7 +108,7 @@ h4{
 
 .three-box{
     display: flex;
-    margin: 0 10%;
+    margin: 5% 10%;
 }
 .set-box-width{
     width: 33%;
@@ -141,6 +144,45 @@ h4{
     width: 100%;
 }
 
+.volunteer p{
+    color: dimgray;
+}
+
 #join-us{
     margin-top: 15%;
 }
+
+.updates{
+    margin: 5% auto;
+    width: 80%;
+}
+#subscribe-form{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+#subscribe-form form{
+    background-color: #FFF4D6;
+    padding: 5% 20%;
+    display: flex;
+}
+#subscribe-form form #input-mail {
+    border: 0;
+    outline: 0;
+    background-color: #D9D9D9;
+    padding: 5% 2%;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#subscribe-form form #sub-button{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 22px;
+    background-color: #FF5959;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+
