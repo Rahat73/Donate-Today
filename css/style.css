@@ -1,0 +1,146 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+}
+
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 32px;
+}
+h4{
+    font-size: 26px;
+}
+
+.banner-text{
+    text-align: center;
+    color: white;
+}
+
+
+.top-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.75)) , url(../images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10% 5%;
+}
+
+.button{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 24px;
+    background-color: #FF5959;
+    border-radius: 4px;
+    border: none;
+}
+
+
+#donate-button {
+    margin: 5% auto 0%;
+    text-align: center;
+  }
+
+
+.amount-selection{
+    padding:5% 5%;
+}
+
+.top-text{
+    text-align: center;
+    padding: 0% 20%;
+}  
+
+.top-text .title{
+    color: black;
+    margin-bottom: 2%;
+}
+
+.top-text .desc{
+    color: dimgray;
+}
+
+.center-list{
+    display: flex;
+    padding: 2% 20%;
+}
+
+.center-list .list{
+    width: 20%;
+    text-align: center;
+    color: #707070;
+    background-color: #FAFAFA;
+    border-radius: 2px;
+    margin:0% 10px;
+}
+
+.center-list .list#selected{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+
+#input-amount{
+    padding: 2% 20%;
+}
+
+#input-amount .input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;  
+}
+
+#donate-button2{
+    margin: 2% auto;
+    text-align: center;
+}
+
+.three-box{
+    display: flex;
+    margin: 0 10%;
+}
+.set-box-width{
+    width: 33%;
+    padding: 3%;
+    margin: 0% 1.5%;
+}
+.set-box-width p{
+    color: dimgray;
+}
+
+.set-box-width#first{
+    background-color: #4F9DA61A;
+}
+.set-box-width#second{
+    background-color: #FF59591A;
+}
+.set-box-width#third{
+    background-color: #FFF4D6;
+}
+
+.volunteer{
+    margin: 10% auto;
+    display: flex;
+    width: 80%;
+}
+
+.volunteer .set-width{
+    width: 50%;
+    padding:0% 5%;
+}
+
+.volunteer .set-width img{
+    width: 100%;
+}
+
+#join-us{
+    margin-top: 15%;
+}
