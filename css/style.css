@@ -186,3 +186,20 @@ h4{
     border: none;
 }
 
+footer{
+    background-color: black;
+    text-align: center;
+    margin: 0%;
+    padding: 2%;
+}
+footer h3{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FF5959;
+}
+footer p{
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
